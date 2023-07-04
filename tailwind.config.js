@@ -22,6 +22,14 @@ module.exports = {
           500: "#B90504",
           700: "#990100"
         }
+      },
+      fontFamily: {
+        'sans': ['Ubuntu', 'Helvetica', 'sans-serif'],
+        'display': ['Poppins', 'Ubuntu', 'Helvetica', 'sans-serif']
+      },
+      backgroundImage: {
+        'home': "url('/background-home.jpg')",
+        'catalog': "url('/background-catalog.jpg')",
       }
     },
   },

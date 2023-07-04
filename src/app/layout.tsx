@@ -1,4 +1,6 @@
+import { Header } from '@/components/Header'
 import '../styles/output.css'
+import '../styles/fonts.css'
 
 export const metadata = {
   title: 'YMovier',
@@ -12,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   )
 }
