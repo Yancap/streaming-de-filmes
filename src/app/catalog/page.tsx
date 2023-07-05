@@ -23,7 +23,7 @@ export default function Catalog() {
             </form>
           </div>
           <div>
-            
+            {/* Cards */}
           </div>
         </div>
       </section>
