@@ -30,4 +30,12 @@
     .subscribe:hover{
         @apply bg-red-700;
     }
+
+    .catalog-section-one{
+        @apply h-[calc(100vh-5rem)] backdrop-blur-sm  py-32 px-32 text-center;
+    }
+
+    .container {
+        @apply mx-auto max-w-5xl;
+    }
 }
