@@ -44,7 +44,7 @@ html {
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: Ubuntu, Helvetica, sans-serif;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -632,7 +632,7 @@ video {
   padding-bottom: 1.25rem;
   padding-left: 2rem;
   padding-right: 2rem;
-  font-family: Poppins, Ubuntu, Helvetica, sans-serif;
+  font-family: var(--font-poppins);
   font-size: 1.875rem;
   line-height: 2.25rem;
   font-weight: 900;
@@ -674,14 +674,6 @@ video {
   position: relative;
 }
 
-.top-40 {
-  top: 10rem;
-}
-
-.bottom-40 {
-  bottom: 10rem;
-}
-
 .bottom-48 {
   bottom: 12rem;
 }
@@ -693,10 +685,6 @@ video {
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.-mt-52 {
-  margin-top: -13rem;
 }
 
 .flex {
@@ -838,7 +826,12 @@ video {
 }
 
 .font-display {
-  font-family: Poppins, Ubuntu, Helvetica, sans-serif;
+  font-family: var(--font-poppins);
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .text-3xl {

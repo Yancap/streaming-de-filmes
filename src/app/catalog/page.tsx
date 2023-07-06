@@ -12,7 +12,7 @@ export default function Catalog() {
       <section className="bg-gray-800 relative container ">
         <div className='bottom-48 absolute z-10 container'>
           <div className='flex pb-2 justify-between'>
-            <h2 className='text-white font-medium'>
+            <h2 className='text-white font-medium text-2xl'>
               Principais Filmes
             </h2>
             <form>

@@ -24,8 +24,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        'sans': ['Ubuntu', 'Helvetica', 'sans-serif'],
-        'display': ['Poppins', 'Ubuntu', 'Helvetica', 'sans-serif']
+        'body': ['var(--font-ubuntu)'],
+        'display': ['var(--font-poppins)']
       },
       backgroundImage: {
         'home': "url('/background-home.jpg')",
