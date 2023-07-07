@@ -4,7 +4,7 @@
 
 
 .scroll_card::-webkit-scrollbar {
-    height: 4px;
+    height: 6px;
     background: #1E1E1E;
     border-radius: 1000px;
 }

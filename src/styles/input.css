@@ -40,10 +40,10 @@
     }
 
     .container-card{
-        @apply flex items-center gap-4 overflow-x-scroll pb-2;
+        @apply flex items-center gap-4 overflow-x-scroll pb-2 relative overflow-y-clip;
     }
 
     .card {
-        @apply shrink-0 mt-4 xl:w-64 lg:w-52 border;
+        @apply shrink-0 mt-4 xl:w-64 lg:w-52 border relative cursor-pointer transition-all;
     }
 }

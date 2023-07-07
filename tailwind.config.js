@@ -30,7 +30,7 @@ module.exports = {
       },
       backgroundImage: {
         'home': "url('/background-home.jpg')",
-        'catalog': "url('/background-catalog.jpg')",
+        'catalog': "url('/background-catalog.png')",
       }
     },
   },
