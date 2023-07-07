@@ -681,6 +681,32 @@ video {
   }
 }
 
+.container-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  overflow-x: scroll;
+  padding-bottom: 0.5rem;
+}
+
+.card {
+  margin-top: 1rem;
+  flex-shrink: 0;
+  border-width: 1px;
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 13rem;
+  }
+}
+
+@media (min-width: 1280px) {
+  .card {
+    width: 16rem;
+  }
+}
+
 .absolute {
   position: absolute;
 }
@@ -727,10 +753,6 @@ video {
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-64 {
-  width: 16rem;
 }
 
 .max-w-2xl {
@@ -880,6 +902,10 @@ video {
   padding-bottom: 0.5rem;
 }
 
+.pb-40 {
+  padding-bottom: 10rem;
+}
+
 .font-display {
   font-family: var(--font-poppins);
 }
@@ -954,6 +980,14 @@ video {
   transition-property: all;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
+}
+
+.\[scroll-snap-align\:center\;\] {
+  scroll-snap-align: center;;
+}
+
+.\[scroll-snap-stop\:always\;\] {
+  scroll-snap-stop: always;;
 }
 
 .hover\:placeholder\:text-light-gray-300:hover::-moz-placeholder {

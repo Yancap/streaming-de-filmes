@@ -39,5 +39,11 @@
         @apply mx-auto max-w-5xl xl:max-w-6xl lg:max-w-4xl md:max-w-xl max-w-lg;
     }
 
-    
+    .container-card{
+        @apply flex items-center gap-4 overflow-x-scroll pb-2;
+    }
+
+    .card {
+        @apply shrink-0 mt-4 xl:w-64 lg:w-52 border;
+    }
 }

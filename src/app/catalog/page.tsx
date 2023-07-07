@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import styles from './scroll.module.css'
 import { Card } from '../../components/Card'
 
 export default function Catalog() {
@@ -12,7 +13,7 @@ export default function Catalog() {
               Catálogo
             </h1>
           </section>
-          <section className=" relative container ">
+          <section className=" relative container pb-40">
             <div className='-top-80 absolute z-10 container'>
               <div className='flex pb-2 justify-between border-b-light-gray-500 border-b-4'>
                 <h2 className='text-white font-medium text-2xl'>
@@ -25,7 +26,8 @@ export default function Catalog() {
                   </button>
                 </form>
               </div>
-              <div>
+              <div className={`container-card ${styles.scroll_card}`}>
+                <Card />
                 <Card />
                 <Card />
                 <Card />
@@ -37,7 +39,7 @@ export default function Catalog() {
 
       </section>
       <section className=' bg-gray-800'>
-        <div className='container'>
+        <div className='container flex'>
           <Card />
           <Card />
           <Card />
