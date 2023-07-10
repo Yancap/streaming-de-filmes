@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { SignIn } from '../SignIn'
+import Link from 'next/link'
 
 export const Header = () => {
   return (
@@ -10,10 +11,10 @@ export const Header = () => {
             <Image src='/logo.svg' alt='logo' width='140' height='32'/>
             <nav className='flex gap-4'>
               <div className='div-link div-link-active'>
-                  <a href="" className='link-active'>Home</a>
+                  <Link href="/" className='link-active'>Home</Link>
               </div>
               <div className='div-link'>
-                  <a href="" className='link'>Catálogo</a>
+                  <Link href="/catalog" className='link'>Catálogo</Link>
               </div>
             </nav>
           </div>

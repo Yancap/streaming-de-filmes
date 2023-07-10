@@ -2,6 +2,7 @@ import { ContainerCard } from '@/components/Catalog/ContainerCard'
 import Image from 'next/image'
 import React, { MouseEvent } from 'react'
 import { Card } from '../../components/Card'
+import { Modal } from '@/components/Modal'
 
 export default function Catalog() {
   
@@ -54,6 +55,7 @@ export default function Catalog() {
           </ContainerCard>
         </div>
       </section>
+      <Modal />
     </main>
   )
 }

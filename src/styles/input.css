@@ -32,7 +32,7 @@
     }
 
     .catalog-section-one{
-        @apply h-[calc(100vh-5rem)]  py-32 px-32 text-center;
+        @apply h-[calc(100vh-5rem)]  py-24 px-32 text-center;
     }
 
     .container {
@@ -44,6 +44,6 @@
     }
 
     .card {
-        @apply shrink-0 mt-4 xl:w-64 lg:w-52 border relative cursor-pointer transition-all;
+        @apply shrink-0 mt-4 xl:w-64 lg:w-52 relative cursor-pointer transition-all rounded-md overflow-hidden;
     }
 }
