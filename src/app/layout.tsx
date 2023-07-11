@@ -1,6 +1,7 @@
 import { Header } from '@/components/Header'
 import '../styles/output.css'
 import { Footer } from '@/components/Footer'
+import { SessionProvider } from 'next-auth/react'import type { AppProps } from 'next/app'
 
 
 export const metadata = {
@@ -13,13 +14,17 @@ export default function RootLayout({
   children,
 }: {
   children: React.ReactNode
-}) {
+}) { 
   return (
     <html lang="en">
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <SessionProvider session={pageProps.session}>
+          <Header />
+          {children}
+          <Footer />
+          
+       </SessionProvider>
+        
       </body>
     </html>
   )
