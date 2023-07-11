@@ -55,7 +55,7 @@ export default function Catalog() {
           </ContainerCard>
         </div>
       </section>
-      <Modal />
+      {/* <Modal /> */}
     </main>
   )
 }
